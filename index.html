@@ -23,25 +23,28 @@
         <!-- <img src="./assets/cover.jpg" alt="" srcset="" class="absolute max-h-2/4 w-full overflow-hidden "> -->
         <!-- <div id="overlay" class="relative bg-gray-900"></div> -->
         <div class="flex flex-col align-center">
-            <h1 class="font-semibold text-center text-4xl z-10 mt-6">UR Mom's Food</h1>
-            <form id="date-and-hall" class="flex flex-col mt-2 mx-auto text-lg z-10 items-center">
-                <div class="my-3 text-xl">
-                    <label for="date-input">Choose date </label>
-                    <input type="date" id="date-input" name="date-input" class="cursor-pointer" required>
-                </div>
-                <div class="my-3 text-xl">
-                    <label for="dining-hall-input">Choose dining hall </label>
-                    <select name="dining-hall-input" id="dining-hall-input" class="cursor-pointer" required>
-                        <option value="danforth">Danforth</option>
-                        <option value="douglass">Douglass</option>
-                    </select>
-                </div>
-                <div class="my-3 text-xl">
-                    <button>
-                        <input type="submit" value="Find dishes!" class="cursor-pointer text-center px-10 py-4 bg-blue-300 rounded-xl">
-                    </button>
-                </div>
-            </form>
+            <div class="flex flex-col align-center" style="background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('./assets/cover.jpg')">
+                <h1 class="font-semibold text-center text-4xl z-10 mt-6">UR Mom's Food</h1>
+                <form id="date-and-hall" class="flex flex-col mt-2 mx-auto text-lg z-10 items-center">
+                    <div class="my-3 text-xl">
+                        <label for="date-input">Choose date </label>
+                        <input type="date" id="date-input" name="date-input" class="cursor-pointer" required>
+                    </div>
+                    <div class="my-3 text-xl">
+                        <label for="dining-hall-input">Choose dining hall </label>
+                        <select name="dining-hall-input" id="dining-hall-input" class="cursor-pointer" required>
+                            <option value="danforth">Danforth</option>
+                            <option value="douglass">Douglass</option>
+                        </select>
+                    </div>
+                    <div class="my-3 text-xl">
+                        <button>
+                            <input type="submit" value="Find dishes!" class="cursor-pointer text-center px-10 py-4 bg-blue-300 rounded-xl">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
             <div id="times-choosing" class="flex flex-col align-center justify-center">
                 
             </div>
