@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#interface {
+    align-self: center;
+}
+h1 {
+    width: 100%;
+    background-color: darkblue;
+}
+h2 {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+</style>
+<title>UR MOM's FOOD</title>
+<h2><b><i>UR Mom's Food</i></b></h2>
+<body>
+<div class="flex-container" style="display: flex; align-items: center; justify-content: center">
+    <div>
+        <input type="date" id= "eatdate" name="eatdate">
+        <input list="halls" id="dininghall" name="dininghall" placeholder="Dining Halls">
+        <button id="button" type="button">Begin</button>
+    </div>
+</div><br>
+<div class="flex-container" style="display: flex; align-items:center; justify-content: center; flex-direction: column;">
+    <div id = "doug">
+        <b><i>Choose your meal: </b></i>
+        <button id="Continental" type="button">Continental</button>
+        <button id="Breakfast" type="button">Breakfast</button>
+        <button id="Lunch" type="button">Lunch</button>
+        <button id="Dinner" type="button">Dinner</button>
+        <button id="Late Dinner" type="button">Late Dinner</button>
+    </div>
+    <div id = "dan">
+        <b><i>Choose your meal: </b></i>
+        <button id="Breakfast" type="button">Breakfast</button>
+        <button id="Lunch" type="button">Lunch</button>
+        <button id="Dinner" type="button">Dinner</button>
+    </div>
+</div>
+<datalist id="halls">
+    <option value="Douglass">
+    <option value="Danforth">
+</datalist>
+</body>    
+</html>
+<script>
+var doug = document.getElementById("doug")
+var dan = document.getElementById("dan")
+doug.style.display = "none"
+dan.style.display = "none"
+function showDoug() {
+    doug.style.display = "flex"
+}
+function showDan() {
+    dan.style.display = "flex"
+}
+function myFunction() {
+    var hall = document.getElementById("dininghall").value 
+    if (hall = "Douglass") {
+        showDoug()
+    } else if (hall = "Danforth") {
+        showDan()
+    }
+}
+document.getElementById("button").onclick = function() {myFunction()}
+  
+
+</script> -->

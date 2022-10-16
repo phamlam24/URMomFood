@@ -1,0 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #main-container{
+    background-image: url("../assets/cover.jpg");
+} */
+#main-container {
+  min-height: calc(100vh - 90px);
+}
